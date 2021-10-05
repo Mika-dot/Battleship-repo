@@ -1,0 +1,7 @@
+C:\Users\сервер\Desktop\Battleship\Battleship\x64\Debug\Battleship.vcxprojAssemblyReference.cache
+C:\Users\сервер\Desktop\Battleship\Battleship\x64\Debug\Battleship.Connection.resources
+C:\Users\сервер\Desktop\Battleship\Battleship\x64\Debug\Battleship.Defeat.resources
+C:\Users\сервер\Desktop\Battleship\Battleship\x64\Debug\Battleship.Game.resources
+C:\Users\сервер\Desktop\Battleship\Battleship\x64\Debug\Battleship.Placement.resources
+C:\Users\сервер\Desktop\Battleship\Battleship\x64\Debug\Battleship.Victory.resources
+C:\Users\сервер\Desktop\Battleship\Battleship\x64\Debug\Battleship.vcxproj.GenerateResource.cache
