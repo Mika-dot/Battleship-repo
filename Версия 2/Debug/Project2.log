@@ -1,0 +1,10 @@
+﻿  MyForm.cpp
+C:\Users\TrushinVlad\source\repos\Project2\Game.h(71,8): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\TrushinVlad\source\repos\Project2\Game.h(72,33): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\TrushinVlad\source\repos\Project2\Game.h(74,15): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\TrushinVlad\source\repos\Project2\MyForm.h(927,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\TrushinVlad\source\repos\Project2\MyForm.h(2082,8): warning C4101: c1: неиспользованная локальная переменная
+C:\Users\TrushinVlad\source\repos\Project2\MyForm.h(2082,12): warning C4101: ch2: неиспользованная локальная переменная
+C:\Users\TrushinVlad\source\repos\Project2\MyForm.h(2082,17): warning C4101: ch3: неиспользованная локальная переменная
+  Game.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Project2.vcxproj -> C:\Users\TrushinVlad\source\repos\Project2\Debug\Project2.exe
