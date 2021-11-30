@@ -1,0 +1,64 @@
+  Battleship.Connection.resources - Embedded, ContainedInManifestFile, 
+  Battleship.Defeat.resources - Embedded, ContainedInManifestFile, 
+  Battleship.Game.resources - Embedded, ContainedInManifestFile, 
+  Battleship.Placement.resources - Embedded, ContainedInManifestFile, 
+  Battleship.Victory.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Battleship, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Battleship.Defeat: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Battleship.Victory: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Battleship.Game: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32*, Int32*, UInt64, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32* Fleet_x : Public
+    Int32* Fleet_y : Public
+    Boolean* Fleet : Public
+    Int32* Fleet_x_mines : Public
+    Int32* Fleet_y_mines : Public
+    UInt64 Connection : Public
+    Int32 x : Public
+    Int32 y : Public
+    Int32 X_old : Public
+    Int32 Y_old : Public
+    Int32 mines : Public
+    Boolean flag : Public
+    Boolean flag_messeg : Public
+    Int32 ships : Public
+Class Battleship.Connection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32*, Int32*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32* Fleet_x : Public
+    Int32* Fleet_y : Public
+Class Battleship.Placement: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 x : Public
+    Int32 y : Public
+    Int32* Fleet_x : Public
+    Int32* Fleet_y : Public
+    Int32 Float_length_COUNT_parameter : Public
+    Int32* Fleet_length : Public
+    Int32 Fleet_length_ACCOUNT : Public
+    Int32 X_old : Public
+    Int32 Y_old : Public
+    Boolean flags : Public
